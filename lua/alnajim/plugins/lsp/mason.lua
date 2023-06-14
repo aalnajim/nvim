@@ -22,12 +22,12 @@ mason.setup()
 mason_lspconfig.setup({
 	-- list of servers for mason to install
 	ensure_installed = {
-		-- "tsserver",
-		-- "html",
-		-- "cssls",
-		-- "tailwindcss",
+		"tsserver",
+		"html",
+		"cssls",
+		"tailwindcss",
 		"lua_ls",
-		-- "emmet_ls",
+		"emmet_ls",
 		"pylsp",
 		"jedi_language_server",
 	},
