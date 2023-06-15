@@ -2,7 +2,7 @@
 
 My setup for neovim:  
 - pull the repo inside `~/.config`  
-- run `brew install ripgrep` to make the fuzzy search for a file work  
+- run `brew install ripgrep` to make the fuzzy search for a text work  
 - run the plugins by going to the file `/lua/alnajim/plugins-setup.lua` and click `:PackerSync`  
 - if the python LSP is failed to download, run `sudo apt install python3.10-venv` for ubuntu or `sudo apt install python3-venv` for kali  
 - if HTML, CSS, .... LSPs are filed to download, you need to:  
