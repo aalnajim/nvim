@@ -98,13 +98,6 @@ lspconfig["jedi_language_server"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
--- configure grammarly server
-lspconfig["grammarly"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-	init_options = { clientId = "client_MnRLdc2unLqVrohoQHtczH" },
-	filetypes = { "markdown", "text" },
-})
 -- configure latex server
 lspconfig["ltex"].setup({
 	capabilities = capabilities,

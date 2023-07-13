@@ -30,7 +30,6 @@ mason_lspconfig.setup({
 		"emmet_ls",
 		"pylsp",
 		"jedi_language_server",
-		"grammarly",
 		"ltex",
 	},
 	-- auto-install configured servers (with lspconfig)
